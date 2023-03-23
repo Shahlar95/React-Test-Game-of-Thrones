@@ -1,0 +1,15 @@
+.mail{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+   
+
+}
+
+
+.adress{
+    font-size: 25px;
+    color: rgb(56, 138, 209);
+    font-weight: bold;
+}
