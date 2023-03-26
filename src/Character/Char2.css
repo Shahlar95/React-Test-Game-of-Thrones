@@ -11,6 +11,7 @@
     height: 320px;
     margin: 10px;
     border: 1px solid rgb(133, 192, 243);
+   
     
 }
 
@@ -20,4 +21,12 @@
     height: 180px;
 
     
+}
+
+.char-btn{
+    background-color: rgb(56, 138, 209);
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
 }

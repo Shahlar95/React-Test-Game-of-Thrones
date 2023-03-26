@@ -5,9 +5,14 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import { Link } from 'react-router-dom';
 import "./Char2.css";
 
+
+
 function Char2({item}) {
+ 
+
   return (
     <div className = "char-div">
       
@@ -28,7 +33,7 @@ function Char2({item}) {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Learn More</Button>
+            <Button size="small"><Link to={`/profil/${item.id}`}><div className='char-btn'>Learn More</div></Link></Button>
           </CardActions>
         </Card>
     </div>
